@@ -1,0 +1,7 @@
+C:\Users\Saumya\Downloads\Project3-SS\StrongComponent\bin\Debug\StrongComponent.exe.config
+C:\Users\Saumya\Downloads\Project3-SS\StrongComponent\bin\Debug\StrongComponent.exe
+C:\Users\Saumya\Downloads\Project3-SS\StrongComponent\bin\Debug\StrongComponent.pdb
+C:\Users\Saumya\Downloads\Project3-SS\StrongComponent\obj\Debug\StrongComponent.csprojAssemblyReference.cache
+C:\Users\Saumya\Downloads\Project3-SS\StrongComponent\obj\Debug\StrongComponent.csproj.CoreCompileInputs.cache
+C:\Users\Saumya\Downloads\Project3-SS\StrongComponent\obj\Debug\StrongComponent.exe
+C:\Users\Saumya\Downloads\Project3-SS\StrongComponent\obj\Debug\StrongComponent.pdb

@@ -1,0 +1,554 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Sat Nov  3 22:46:48 2018
+     Path: "C:\Users\Saumya\Downloads\Project3-SS"
+     Args: *.h, *.cpp, *.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     828
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               DemoReqs.cs   namespace                       CodeAnalysis      36     110      10
+               DemoReqs.cs       class                          Executive      40     106       9
+               DemoReqs.cs    function                 ProcessCommandline      44      21       4
+               DemoReqs.cs    function                          testToker      67       3       1
+               DemoReqs.cs    function                    ShowCommandLine      72       9       2
+               DemoReqs.cs    function                               Main      83      61       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            DepAnalysis.cs   namespace                 DependencyAnalysis      24      73      13
+            DepAnalysis.cs      struct                           TypeItem      28       5       1
+              public data: public File file ; 
+            DepAnalysis.cs       class                        DepAnalysis      33      36       8
+            DepAnalysis.cs    function                                add      38      10       2
+            DepAnalysis.cs    function                                add      49       6       1
+            DepAnalysis.cs    function                               show      56      11       3
+            DepAnalysis.cs       class                    DepAnalysisDemo      69      28       3
+            DepAnalysis.cs    function                               Main      72      23       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Display.cs   namespace                       CodeAnalysis      41     139      29
+                Display.cs       class                          StringExt      47       8       2
+                Display.cs    function                           Truncate      49       4       1
+                Display.cs       class                            Display      56     124      26
+                Display.cs    function                            Display      58      10       1
+                Display.cs    function                   showMetricsTable      81      23       2
+                Display.cs    function                  displaySemiString     107      11       2
+                Display.cs    function                      displayString     121       7       1
+                Display.cs    function                      displayString     131       4       1
+                Display.cs    function                       displayRules     138       6       2
+                Display.cs    function                     displayActions     147       6       2
+                Display.cs    function                       displayFiles     156       6       2
+                Display.cs    function                   displayDirectory     165       6       2
+                Display.cs    function                               Main     174       3       1
+                Display.cs   namespace                       CodeAnalysis      47     131      29
+                Display.cs       class                            Display      49     119      26
+                Display.cs    function                            Display      51      10       1
+                Display.cs    function                   showMetricsTable      72      29       2
+                Display.cs    function                  displaySemiString     102      11       2
+                Display.cs    function                      displayString     115       7       1
+                Display.cs    function                      displayString     124       4       1
+                Display.cs    function                       displayRules     130       6       2
+                Display.cs    function                     displayActions     138       6       2
+                Display.cs    function                       displayFiles     146       6       2
+                Display.cs    function                   displayDirectory     154       6       2
+                Display.cs    function                               Main     163       2       1
+                Display.cs       class                          StringExt     170       8       2
+                Display.cs    function                           Truncate     172       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Element.cs   namespace                       CodeAnalysis      33      23       9
+                Element.cs       class                               Elem      35      21       8
+                Element.cs    function                           ToString      44      10       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              Executive.cs   namespace                       CodeAnalysis      35     170      19
+              Executive.cs       class                          Executive      39     166      18
+              Executive.cs    function                 ProcessCommandline      44      21       4
+              Executive.cs    function                    ShowCommandLine      67       9       2
+              Executive.cs    function                               Main      78     125      11
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                FileMgr.cs   namespace                      FileUtilities      33      80      15
+                FileMgr.cs       class                           Navigate      39      74      14
+                FileMgr.cs    function                           Navigate      67       3       1
+                FileMgr.cs    function                                Add      72       7       2
+                FileMgr.cs    function                                 go      85      26       4
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Graph.cs   namespace                    StrongComponent      25     308      53
+                  Graph.cs       class                             CsEdge      27      10       4
+                  Graph.cs    function                             CsEdge      32       4       1
+                  Graph.cs       class                             CsNode      39      63      17
+                  Graph.cs    function                             CsNode      52       7       1
+                  Graph.cs    function                           addChild      62       3       1
+                  Graph.cs    function               getNextUnmarkedChild      68      11       3
+                  Graph.cs    function                   hasUnmarkedChild      82      10       3
+                  Graph.cs    function                             unmark      93       3       1
+                  Graph.cs    function                           ToString      97       3       1
+                  Graph.cs       class                          Operation     105      17       3
+                  Graph.cs    function                           doNodeOp     109       4       1
+                  Graph.cs    function                           doEdgeOp     116       4       1
+                  Graph.cs       class                              Graph     126     145      23
+                  Graph.cs    function                              Graph     136       6       1
+                  Graph.cs    function                             Tarjan     143      50       5
+                  Graph.cs    function                       setOperation     196       5       1
+                  Graph.cs    function                            addNode     204       3       1
+                  Graph.cs    function                         clearMarks     210       4       1
+                  Graph.cs    function                               walk     217      24       4
+                  Graph.cs    function                               walk     244      25       5
+                  Graph.cs       class                      demoOperation     274       8       2
+                  Graph.cs    function                           doNodeOp     276       4       1
+                  Graph.cs       class                               Test     282      51       3
+                  Graph.cs    function                               Main     284      47       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         IRuleandAction.cs   namespace                       CodeAnalysis      33      91      16
+         IRuleandAction.cs   interface                            IAction      38       3       1
+         IRuleandAction.cs       class                            AAction      45      29       8
+              public data: static public Action < string > actionDelegate ; 
+         IRuleandAction.cs    function                            display      67       5       1
+         IRuleandAction.cs   interface                              IRule      77       4       1
+         IRuleandAction.cs       class                              ARule      85      39       5
+              public data: static public Action < string > actionDelegate ; 
+         IRuleandAction.cs    function                              ARule      90       3       1
+         IRuleandAction.cs    function                                add      94       3       1
+         IRuleandAction.cs    function                          doActions      99       4       1
+         IRuleandAction.cs    function                        indexOfType     104      18       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+       ITokenCollection.cs   namespace                              Lexer      15      25       3
+       ITokenCollection.cs   interface                   ITokenCollection      20      19       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+   NavigateWithDelegates.c   namespace                              Navig      41      35       5
+   NavigateWithDelegates.c       class                           Navigate      43      33       4
+   NavigateWithDelegates.c    function                           Navigate      50       2       1
+   NavigateWithDelegates.c    function                                 go      58      16       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Parser.cs   namespace                       CodeAnalysis      28     115      17
+                 Parser.cs       class                             Parser      33      26       5
+                 Parser.cs    function                             Parser      37       3       1
+                 Parser.cs    function                                add      41       3       1
+                 Parser.cs    function                              parse      45      12       2
+                 Parser.cs       class                         TestParser      60      83      11
+                 Parser.cs    function                 ProcessCommandline      64      16       3
+                 Parser.cs    function                    ShowCommandLine      82       9       2
+                 Parser.cs    function                               Main      97      43       5
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                Program.cs   namespace                             Tarjan       9     112      21
+                Program.cs       class                            Program      11      29       6
+                Program.cs    function                               Main      13      25       5
+                Program.cs    function                           ReadLine      18       1       1
+                Program.cs       class                             Vertex      40       7       1
+              public data: public int ID = - 1 ; 
+              public data: public int index = - 1 ; 
+              public data: public int lowlink = - 1 ; 
+                Program.cs       class                           DepGraph      49      16       3
+                Program.cs    function                        CreateGraph      53      10       2
+                Program.cs       class                  TarjanCycleDetect      67      54      10
+                Program.cs    function                        DetectCycle      73      13       3
+                Program.cs    function                      StrongConnect      88      31       6
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              ReqsTests.cs   namespace                       CodeAnalysis      17     387      84
+              ReqsTests.cs       class                          FileUtils      21      35       6
+              ReqsTests.cs    function                           openFile      23       4       1
+              ReqsTests.cs    function                          fileLines      29      25       4
+              ReqsTests.cs       class                         ReqDisplay      60      43       8
+              ReqsTests.cs    function                              title      62       4       1
+              ReqsTests.cs    function                            message      67       3       1
+              ReqsTests.cs    function                            showSet      71      11       2
+              ReqsTests.cs    function                           showList      84      17       3
+              ReqsTests.cs       class                             Finder     107      27       5
+              ReqsTests.cs    function                       findSequence     111      21       3
+              ReqsTests.cs       class                           TestReq3     137      29       7
+              ReqsTests.cs    function                             onFile     142       4       1
+              ReqsTests.cs    function                              onDir     147       3       1
+              ReqsTests.cs    function                             doTest     151      13       1
+              ReqsTests.cs       class                           TestReq4     169      15       6
+              ReqsTests.cs    function                             doTest     174       8       2
+              ReqsTests.cs       class                           TestReq5     187      28       8
+              ReqsTests.cs    function                             doTest     192      21       4
+              ReqsTests.cs       class                           TestReq6     218      30       8
+              ReqsTests.cs    function                             doTest     223      23       4
+              ReqsTests.cs       class                           TestReq7     251      13       4
+              ReqsTests.cs    function                             doTest     255       7       1
+              ReqsTests.cs       class                           TestReq8     267      13       4
+              ReqsTests.cs    function                             doTest     271       7       1
+              ReqsTests.cs       class                           TestReq9     283      14       5
+              ReqsTests.cs    function                             doTest     288       7       1
+              ReqsTests.cs       class                         TestReq10a     300      25       6
+              ReqsTests.cs    function                             doTest     306      17       1
+              ReqsTests.cs       class                         TestReq10b     328      32       7
+              ReqsTests.cs    function                             doTest     334      24       2
+              ReqsTests.cs       class                         TestReq10c     363      41       9
+              ReqsTests.cs    function                            replace     370       7       2
+              ReqsTests.cs    function                             doTest     378      24       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        RulesAndActions.cs   namespace                       CodeAnalysis      53     516      69
+        RulesAndActions.cs       class                         Repository      63      62      13
+        RulesAndActions.cs    function                         Repository      70       3       1
+        RulesAndActions.cs    function                        getInstance      77       3       1
+        RulesAndActions.cs       class                          PushStack     139      40       4
+        RulesAndActions.cs    function                          PushStack     141       3       1
+        RulesAndActions.cs    function                           doAction     146      31       2
+        RulesAndActions.cs       class                           PopStack     183      55      10
+        RulesAndActions.cs    function                           PopStack     185       3       1
+        RulesAndActions.cs    function                           doAction     189      47       8
+        RulesAndActions.cs       class                      PrintFunction     241      21       5
+        RulesAndActions.cs    function                      PrintFunction     243       3       1
+        RulesAndActions.cs    function                            display     247       9       2
+        RulesAndActions.cs    function                           doAction     257       3       1
+        RulesAndActions.cs       class                          PrintSemi     265      12       3
+        RulesAndActions.cs    function                          PrintSemi     267       3       1
+        RulesAndActions.cs    function                           doAction     271       4       1
+        RulesAndActions.cs       class                         SaveDeclar     280      27       4
+        RulesAndActions.cs    function                         SaveDeclar     282       3       1
+        RulesAndActions.cs    function                           doAction     286      19       2
+        RulesAndActions.cs       class                    DetectNamespace     320      18       3
+        RulesAndActions.cs    function                               test     322      14       2
+        RulesAndActions.cs       class                        DetectUsing     340      23       4
+        RulesAndActions.cs    function                               test     342      19       3
+        RulesAndActions.cs       class                        DetectClass     366      31       3
+        RulesAndActions.cs    function                               test     368      27       2
+        RulesAndActions.cs       class                     DetectFunction     400      28       5
+        RulesAndActions.cs    function                     isSpecialToken     402       7       2
+        RulesAndActions.cs    function                               test     410      16       2
+        RulesAndActions.cs       class               DetectAnonymousScope     433      18       3
+        RulesAndActions.cs    function                               test     435      14       2
+        RulesAndActions.cs       class                 DetectPublicDeclar     454      33       5
+        RulesAndActions.cs    function                               test     456      29       4
+        RulesAndActions.cs       class                 DetectLeavingScope     490      15       3
+        RulesAndActions.cs    function                               test     492      11       2
+        RulesAndActions.cs       class                  BuildCodeAnalyzer     509      60       3
+        RulesAndActions.cs    function                  BuildCodeAnalyzer     513       3       1
+        RulesAndActions.cs    function                              build     517      50       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+             ScopeStack.cs   namespace                       CodeAnalysis      46     133      18
+             ScopeStack.cs       class                         ScopeStack      48      68      12
+             ScopeStack.cs    function                               push      55       3       1
+             ScopeStack.cs    function                                pop      61       9       1
+             ScopeStack.cs    function                              clear      73       3       1
+             ScopeStack.cs    function                         lastPopped     102       3       1
+             ScopeStack.cs    function                            display     108       6       2
+             ScopeStack.cs       class                               Test     117      62       5
+             ScopeStack.cs      struct                               Elem     119      21       3
+              public data: public string type ; 
+              public data: public string name ; 
+              public data: public int place ; 
+             ScopeStack.cs    function                               make     124       5       1
+             ScopeStack.cs    function                           ToString     130       9       1
+             ScopeStack.cs    function                               Main     143      33       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Semi.cs   namespace                             CSsemi     113     381      49
+                   Semi.cs       class                           CSemiExp     118     376      48
+                   Semi.cs    function                           CSemiExp     133       7       1
+                   Semi.cs    function                             Equals     144       9       1
+                   Semi.cs    function                          FindFirst     157       6       1
+                   Semi.cs    function                           FindLast     166       6       1
+                   Semi.cs    function                           Contains     175       3       1
+                   Semi.cs    function                        GetHashCode     181       3       1
+                   Semi.cs    function                               open     187       3       1
+                   Semi.cs    function                              close     193       3       1
+                   Semi.cs    function                       isTerminator     199      13       2
+                   Semi.cs    function                                get     215       7       1
+                   Semi.cs    function                             IsPunc     225       3       1
+                   Semi.cs    function                     IsOperatorPair     236      16       2
+                   Semi.cs    function                            getSemi     255      26       3
+                   Semi.cs    function                             insert     297       8       2
+                   Semi.cs    function                                Add     308       4       1
+                   Semi.cs    function                                Add     315       4       1
+                   Semi.cs    function                         initialize     322       6       1
+                   Semi.cs    function                              flush     331       3       1
+                   Semi.cs    function                          isComment     337       7       1
+                   Semi.cs    function                            display     347       4       1
+                   Semi.cs    function                         displayStr     354      10       2
+                   Semi.cs    function                              clone     396       8       2
+                   Semi.cs    function                             remove     407       8       2
+                   Semi.cs    function                             remove     418       8       2
+                   Semi.cs    function                               Main     433      58       3
+                   Semi.cs   namespace                              Lexer      43     344      47
+                   Semi.cs       class                            Factory      60       9       2
+                   Semi.cs    function                             create      62       5       1
+                   Semi.cs       class                               Semi      70     234      40
+                   Semi.cs    function                               Semi      74       2       1
+                   Semi.cs    function                               Semi      78       3       1
+                   Semi.cs    function                           addRange      83       4       1
+                   Semi.cs    function                               open      89       3       1
+                   Semi.cs    function                              close      94       3       1
+                   Semi.cs    function                               size     100       3       1
+                   Semi.cs    function                           ToString     106       8       2
+                   Semi.cs    function                          lineCount     117       3       1
+                   Semi.cs    function                       isTerminator     123      11       2
+                   Semi.cs    function                               trim     137      12       2
+                   Semi.cs    function                           contains     152       5       1
+                   Semi.cs    function                               find     160       9       2
+                   Semi.cs    function                        predecessor     172       8       2
+                   Semi.cs    function                               last     183       3       1
+                   Semi.cs    function                        hasSequence     189      11       2
+                   Semi.cs    function                               fold     203      11       2
+                   Semi.cs    function                                get     217      16       3
+                   Semi.cs    function                      GetEnumerator     243       3       1
+                   Semi.cs    function                      GetEnumerator     248       3       1
+                   Semi.cs    function                                add     254       4       1
+                   Semi.cs    function                              clear     261       3       1
+                   Semi.cs    function                             isDone     267       3       1
+                   Semi.cs    function                             insert     273       6       1
+                   Semi.cs    function                      hasTerminator     282       7       1
+                   Semi.cs    function                               show     292      10       2
+                   Semi.cs       class                           TestSemi     307      80       4
+                   Semi.cs    function                               Main     309      76       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   Test.cs   namespace                        Application      21      54       9
+                   Test.cs       class                               Test      23      52       8
+                   Test.cs    function                               Test      25       2       1
+                   Test.cs    function                              OnDir      28       3       1
+                   Test.cs    function                             OnFile      32       6       1
+                   Test.cs    function                           Register      39       4       1
+                   Test.cs    function                               Main      45      28       3
+                   Test.cs   namespace                              Navig      23      43       7
+                   Test.cs       class                               Test      25      41       6
+                   Test.cs    function                               Test      27       2       1
+                   Test.cs    function                              OnDir      30       3       1
+                   Test.cs    function                             OnFile      34       6       1
+                   Test.cs    function                           Register      41       4       1
+                   Test.cs    function                               Main      47      17       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+   TestCase-eligibleCheck.   namespace                    myEligibleCheck      23     136      23
+   TestCase-eligibleCheck.      struct                              Books      25       5       1
+              public data: public string title ; 
+              public data: public string author ; 
+              public data: public string subject ; 
+              public data: public int book_id ; 
+   TestCase-eligibleCheck.       class                      eligibleCheck      32     127      21
+   TestCase-eligibleCheck.    function                          preCreate      37      32       6
+   TestCase-eligibleCheck.    function                            travers      70       9       2
+   TestCase-eligibleCheck.    function                         coverFiles      80      23       4
+   TestCase-eligibleCheck.    function                        renameFiles     104      26       4
+   TestCase-eligibleCheck.    function                               Main     133      23       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            TestHarness.cs   interface                              ITest      17       5       3
+            TestHarness.cs   namespace                        TestHarness      24     115      28
+            TestHarness.cs       class                             Tester      26      30       8
+            TestHarness.cs    function                                add      31       3       1
+            TestHarness.cs    function                              clear      35       3       1
+            TestHarness.cs    function                            execute      39       8       2
+            TestHarness.cs    function                              check      48       6       1
+            TestHarness.cs       class                           Executor      56      24       5
+            TestHarness.cs    function                            execute      58      13       3
+            TestHarness.cs    function                              check      72       6       1
+            TestHarness.cs       class                              Test1      80       9       4
+            TestHarness.cs    function                             doTest      84       3       1
+            TestHarness.cs       class                              Test2      89       9       4
+            TestHarness.cs    function                             doTest      93       3       1
+            TestHarness.cs       class                              Test3      98      10       4
+            TestHarness.cs    function                             doTest     102       4       1
+            TestHarness.cs       class                   Test_TestHarness     108      31       2
+            TestHarness.cs    function                               Main     110      27       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               TestUnit.cs   namespace                  AutomatedTestUnit      35     202      24
+               TestUnit.cs       class                           TestUnit      42     195      23
+               TestUnit.cs    function                 ProcessCommandline      44      21       4
+               TestUnit.cs    function                    ShowCommandLine      67       9       2
+               TestUnit.cs    function                          DirSearch      77      20       5
+               TestUnit.cs    function                               Main      98     137      11
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Toker.cs   namespace                            CStoker     105     582      87
+                  Toker.cs       class                             CToker     110     577      86
+                  Toker.cs    function                             CToker     131       5       1
+                  Toker.cs    function                           openFile     139      13       3
+                  Toker.cs    function                         openString     155      13       3
+                  Toker.cs    function                              close     171       3       1
+                  Toker.cs    function                       removeReturn     177       9       2
+                  Toker.cs    function                       removeReturn     189       9       2
+                  Toker.cs    function                           readLine     201      20       3
+                  Toker.cs    function                            getLine     234      32       6
+                  Toker.cs    function                            extract     273      35       4
+                  Toker.cs    function           mapToOldDoubleQuoteStyle     312      24       4
+                  Toker.cs    function                      extractDQuote     340      30       6
+                  Toker.cs    function                      extractSQuote     374      29       6
+                  Toker.cs    function                     extractComment     407      47       9
+                  Toker.cs    function                        eatCComment     457      30       5
+                  Toker.cs    function               IsGrammarPunctuation     491       7       1
+                  Toker.cs    function                           eatAscii     501      14       3
+                  Toker.cs    function                 eatPunctuationChar     518       5       1
+                  Toker.cs    function                         fillBuffer     526      27       6
+                  Toker.cs    function                             getTok     556      22       4
+                  Toker.cs    function                        peekNextTok     581       7       1
+                  Toker.cs    function                           pushBack     591       3       1
+                  Toker.cs    function                               Main     601      83      11
+                  Toker.cs   namespace                              Lexer      36     920     127
+                  Toker.cs   interface                       ITokenSource      47       8       2
+                  Toker.cs   interface                        ITokenState      61       4       1
+                  Toker.cs       class                              Toker      71     191      25
+                  Toker.cs    function                              Toker      78       3       1
+                  Toker.cs    function                               open      87       5       1
+                  Toker.cs    function                              close      95       3       1
+                  Toker.cs    function                          overwrite     107       7       1
+                  Toker.cs    function                             getTok     117      11       2
+                  Toker.cs    function                             isDone     131       5       1
+                  Toker.cs    function                          lineCount     137       2       1
+                  Toker.cs    function                      oneCharTokens     143       3       1
+                  Toker.cs    function                      twoCharTokens     149       3       1
+                  Toker.cs    function                    addOneCharToken     155       6       1
+                  Toker.cs    function                 removeOneCharToken     164       3       1
+                  Toker.cs    function                    addTwoCharToken     170       6       1
+                  Toker.cs    function                 removeTwoCharToken     179       3       1
+                  Toker.cs    function                       isWhiteSpace     185       5       1
+                  Toker.cs    function                          isNewLine     193       5       1
+                  Toker.cs    function                         isAlphaNum     201       5       1
+                  Toker.cs    function                       isPunctuator     209       9       1
+                  Toker.cs    function                isSingleLineComment     221       7       1
+                  Toker.cs    function              isMultipleLineComment     231       7       1
+                  Toker.cs    function                      isDoubleQuote     241      11       2
+                  Toker.cs    function                      isSingleQuote     255       5       1
+                  Toker.cs       class                       TokenContext     268      26      12
+                  Toker.cs    function                       TokenContext     270      11       1
+                  Toker.cs       class                         TokenState     299     208      27
+                  Toker.cs    function                         TokenState     305      10       3
+                  Toker.cs    function                      oneCharTokens     318       3       1
+                  Toker.cs    function                      twoCharTokens     324       3       1
+                  Toker.cs    function                    addOneCharToken     330       6       1
+                  Toker.cs    function                 removeOneCharToken     339       3       1
+                  Toker.cs    function                    addTwoCharToken     345       6       1
+                  Toker.cs    function                 removeTwoCharToken     354       3       1
+                  Toker.cs    function                               open     360       3       1
+                  Toker.cs    function                       isWhiteSpace     370       4       1
+                  Toker.cs    function                          isNewLine     377       3       1
+                  Toker.cs    function                         isAlphaNum     383       4       1
+                  Toker.cs    function                isSingleLineComment     390       7       1
+                  Toker.cs    function                 isMultiLineComment     400       7       1
+                  Toker.cs    function                      isDoubleQuote     410       9       2
+                  Toker.cs    function                      isSingleQuote     422       4       1
+                  Toker.cs    function                      isPunctuation     429       6       1
+                  Toker.cs    function                          nextState     438      37       1
+                  Toker.cs    function                             isDone     477       5       1
+                  Toker.cs    function                          isEscaped     490      15       2
+                  Toker.cs       class                    WhiteSpaceState     537      20       4
+                  Toker.cs    function                    WhiteSpaceState     539       3       1
+                  Toker.cs    function                             getTok     545      10       2
+                  Toker.cs       class                       NewLineState     561      16       3
+                  Toker.cs    function                       NewLineState     563       3       1
+                  Toker.cs    function                             getTok     569       6       1
+                  Toker.cs       class                      AlphaNumState     581      20       4
+                  Toker.cs    function                      AlphaNumState     583       3       1
+                  Toker.cs    function                             getTok     589      10       2
+                  Toker.cs       class             SingleLineCommentState     605      25       4
+                  Toker.cs    function             SingleLineCommentState     607       3       1
+                  Toker.cs    function                             getTok     613      15       2
+                  Toker.cs       class              MultiLineCommentState     634      26       4
+                  Toker.cs    function              MultiLineCommentState     636       3       1
+                  Toker.cs    function                             getTok     642      16       2
+                  Toker.cs       class                   SingleQuoteState     664      24       4
+                  Toker.cs    function                   SingleQuoteState     666       3       1
+                  Toker.cs    function                             getTok     673      13       2
+                  Toker.cs       class                   DoubleQuoteState     692      26       4
+                  Toker.cs    function                   DoubleQuoteState     694       3       1
+                  Toker.cs    function                             getTok     700      16       2
+                  Toker.cs       class                   PunctuationState     722      43       5
+                  Toker.cs    function                   PunctuationState     724       3       1
+                  Toker.cs    function                             getTok     733      30       3
+                  Toker.cs       class                    TokenSourceFile     774      88      15
+                  Toker.cs    function                    TokenSourceFile     781       3       1
+                  Toker.cs    function                               open     787      13       3
+                  Toker.cs    function                              close     803       3       1
+                  Toker.cs    function                               next     812      17       3
+                  Toker.cs    function                               peek     838      16       4
+                  Toker.cs    function                                end     857       3       1
+                  Toker.cs       class                          DemoToker     865      91      12
+                  Toker.cs    function              testTokerWithComments     872      29       5
+                  Toker.cs    function           testTokerWithoutComments     902      29       5
+                  Toker.cs    function                               Main     932      22       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              TypeTable.cs   namespace                          TypeTable      25      75      13
+              TypeTable.cs      struct                           TypeItem      31       5       1
+              public data: public File file ; 
+              TypeTable.cs       class                          TypeTable      37      36       8
+              TypeTable.cs    function                                add      42      10       2
+              TypeTable.cs    function                                add      53       6       1
+              TypeTable.cs    function                               show      60      11       3
+              TypeTable.cs       class                  TestTypeTableDemo      73      27       3
+              TypeTable.cs    function                               Main      75      23       2
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               DemoReqs.cs    function                               Main      83      61       1
+              Executive.cs    function                               Main      78     125      11
+                   Semi.cs    function                               Main     433      58       3
+                   Semi.cs    function                               Main     309      76       3
+               TestUnit.cs    function                               Main      98     137      11
+                  Toker.cs    function                               Main     601      83      11
+
+              public data: DepAnalysis.cs : 29 - struct TypeItem
+                public File file ; 
+              public data: IRuleandAction.cs : 51 - class AAction
+                static public Action < string > actionDelegate ; 
+              public data: IRuleandAction.cs : 87 - class ARule
+                static public Action < string > actionDelegate ; 
+              public data: Program.cs : 41 - class Vertex
+                public int ID = - 1 ; 
+              public data: Program.cs : 42 - class Vertex
+                public int index = - 1 ; 
+              public data: Program.cs : 43 - class Vertex
+                public int lowlink = - 1 ; 
+              public data: ScopeStack.cs : 120 - struct Elem
+                public string type ; 
+              public data: ScopeStack.cs : 121 - struct Elem
+                public string name ; 
+              public data: ScopeStack.cs : 122 - struct Elem
+                public int place ; 
+              public data: TestCase-eligibleCheck.cs : 26 - struct Books
+                public string title ; 
+              public data: TestCase-eligibleCheck.cs : 27 - struct Books
+                public string author ; 
+              public data: TestCase-eligibleCheck.cs : 28 - struct Books
+                public string subject ; 
+              public data: TestCase-eligibleCheck.cs : 28 - struct Books
+                public int book_id ; 
+              public data: TypeTable.cs : 32 - struct TypeItem
+                public File file ; 
+
+
+    searched   127 dirs
+   processed    83 files

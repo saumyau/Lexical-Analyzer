@@ -1,0 +1,9 @@
+using NE;
+namespace NF;
+
+class CG{
+
+CF obj_F = new CF();
+CE obj_E = new CE();
+
+}

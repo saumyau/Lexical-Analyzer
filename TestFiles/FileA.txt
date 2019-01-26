@@ -1,0 +1,21 @@
+namespace NA;
+using ND;
+
+delegate int DA(int x, int y);
+
+enum EA {Sat, Sun, Mon, Tue, Wed, Thu, Fri};
+
+
+struct SA{
+
+}
+interface IA{
+
+}
+
+Class CA{
+
+
+
+}
+

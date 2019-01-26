@@ -1,0 +1,5 @@
+namespace NE;
+
+class CE{
+
+}

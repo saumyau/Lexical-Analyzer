@@ -1,0 +1,15 @@
+using NB;
+using NA;
+namespace NC;
+
+struct SC{
+}
+
+class CC{
+
+CA A_obj = new CA();
+CB B_obj = new CB();
+
+}
+
+

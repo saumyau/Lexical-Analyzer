@@ -1,0 +1,12 @@
+using NE;
+
+namespace NF;
+
+class CF{
+
+CE obj_E = new CE();
+
+}
+struct CF{
+
+}

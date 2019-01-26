@@ -1,0 +1,13 @@
+namespace NB;
+using NA;
+
+struct SB{
+}
+
+class CB{
+
+CA A_obj = new CA();
+
+}
+
+
